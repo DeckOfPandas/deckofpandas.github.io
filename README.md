@@ -4,6 +4,7 @@
 ### Initial setup for first local build
 * `git clone` repo
 * `cd` repo_folder
+* `bundle install` to install list of gems in Gemfile  
 * `npm install` to install list of node packages in packages.json  
 
 ### Then
