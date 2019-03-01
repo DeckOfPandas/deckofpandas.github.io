@@ -5,6 +5,8 @@ h1 {
 }
 h2 {
 	font-family: 'Helvetica Neue';
+	text-transform: uppercase;
+	text-align: center;
 }
 
 
@@ -16,8 +18,10 @@ h2 {
 	height: auto;
 	min-height: 35rem;
 	padding: 15rem 0;
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.4)), color-stop(75%, rgba(1, 1, 1, 0.9)), to(#161616)), url("/assets/images/bg-masthead.jpg");
-	background: linear-gradient(to bottom, rgba(1, 1, 1, 0.4) 0%, rgba(1, 1, 1, 0.9) 75%, #161616 100%), url("/assets/images/bg-masthead.jpg");
+	// background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.4)), color-stop(75%, rgba(1, 1, 1, 0.9)), to(#161616)), url("/assets/images/bg-masthead.jpg");
+	// background: linear-gradient(to bottom, rgba(1, 1, 1, 0.4) 0%, rgba(1, 1, 1, 0.9) 75%, #161616 100%), url("/assets/images/bg-masthead.jpg");
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.4)), color-stop(75%, rgba(1, 1, 1, 0.9)), to(#fff8fe)), url("/assets/images/bg-masthead.jpg");
+	background: linear-gradient(to bottom, rgba(1, 1, 1, 0.4) 0%, rgba(1, 1, 1, 0.9) 75%, #fff8fe 100%), url("/assets/images/bg-masthead.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -35,6 +39,14 @@ h2 {
 		font-weight: 300;
 		line-height: 2rem;
 		letter-spacing: 0.3rem;
+	}
+	h3 {
+		font-size: 0.9em;
+		color: #d9d9d9;
+		max-width: 30rem;
+		font-weight: 300;
+		line-height: 2rem;
+		letter-spacing: 0.2rem;
 	}
 }
 
@@ -99,9 +111,22 @@ h2 {
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(1, 1, 1, 0.9)), to(rgba(1, 1, 1, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(1, 1, 1, 0.9) 75%, rgba(1, 1, 1, 0.8) 100%);
+  // background: -webkit-gradient(linear, left top, left bottom, from(#fff8fe), color-stop(75%, rgba(1, 1, 1, 0.9)), to(rgba(1, 1, 1, 0.8)));
+  // background: linear-gradient(to bottom, #fff8fe 0%, rgba(1, 1, 1, 0.9) 75%, rgba(1, 1, 1, 0.8) 100%);
+  background-color: #fff8fe;
+  h2 {
+	color: #010101;
+	margin-bottom: 2rem;
+  }
   p {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
+	color: #010101;
+	text-align: justify;
   }
 }
+
+
+#content br {display: none;}
+#content p br {display: inline;}
+
+
